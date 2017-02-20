@@ -1,0 +1,10 @@
+int score = 0, highScore = 0; // Puntuación y puntuación máxima
+int x = -200, y, vy = 0; // Posición 'y, 'x' y la velocidad horizontal 'vy'
+// Paredes: wx contiene la distancia horizontal y wy la vertical
+int wx[] = new int[2], wy[] = new int[2];
+
+void setup() {
+    size(600,700); // Tamaño de la ventana: ancho x alto (px)
+    fill(0);
+    textSize(40);  // ... Tamaño de la letra, claro
+}
